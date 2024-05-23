@@ -35,6 +35,7 @@
     "@types/react-dom": "^18.2.18",
     "autoprefixer": "^10.4.17",
     "axios": "^1.6.7",
+    "braces": "^3.0.3",
     "concurrently": "^8.2.2",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",

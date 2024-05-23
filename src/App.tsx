@@ -8,19 +8,21 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import React from 'react'
 import Home from './components/home'
-import Greet from './components/greet'
-import TestText from './components/testText'
+import Riparazione from './components/Riparazione/riparazione.tsx';
+import Assistenza from './components/Assistenza/assistenza.tsx';
+import Feedback from './components/Feedback/feedback.tsx';
 
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/'>
       <main>
           <Routes>
             {/* Routing */}
             <Route path="/" element={<Home />}/>
-            <Route path="/greet" element={<Greet />}/>
-            <Route path="/test" element={<TestText />}/>
+            <Route path="/home/riparazione" element={<Riparazione />}/>
+            <Route path="/home/assistenza" element={<Assistenza />}/>
+            <Route path="/home/feedback" element={<Feedback />}/>
             <Route path="*" element={<Home />}/>
           </Routes>
       </main>
