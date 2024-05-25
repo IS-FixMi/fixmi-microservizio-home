@@ -10,6 +10,7 @@ import { ErrorBoundary } from 'react-error-boundary'
 import '../style.css'
 import Navbar from './navbar'
 import Footer from './footer'
+import PageContent from './homeContent.tsx';
 
 export default function Home() {
   
@@ -17,7 +18,7 @@ export default function Home() {
   return (
     <ErrorBoundary FallbackComponent={Fallback}>
       <Navbar />
-      
+      <PageContent />
       <Footer />
     </ErrorBoundary>
   );

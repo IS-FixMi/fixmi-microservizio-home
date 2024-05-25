@@ -18,7 +18,8 @@ export default function Assistenza() {
       token
     )
     .then(response => {
-      console.log("Request successful", response);
+      console.log("Success", response);
+      window.location.href = "/home/success";
     })
     .catch(error => {
       console.error("Request failed", error);

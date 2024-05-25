@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.778e20c2.css",
-    "main.js": "./static/js/main.3c3ec6ed.js",
+    "main.css": "./static/css/main.42a99c18.css",
+    "main.js": "./static/js/main.c56daf76.js",
     "static/media/fixmi-logo.png": "./static/media/fixmi-logo.7c93ceff32dab479d170.png",
     "index.html": "./index.html",
-    "main.778e20c2.css.map": "./static/css/main.778e20c2.css.map",
-    "main.3c3ec6ed.js.map": "./static/js/main.3c3ec6ed.js.map"
+    "main.42a99c18.css.map": "./static/css/main.42a99c18.css.map",
+    "main.c56daf76.js.map": "./static/js/main.c56daf76.js.map"
   },
   "entrypoints": [
-    "static/css/main.778e20c2.css",
-    "static/js/main.3c3ec6ed.js"
+    "static/css/main.42a99c18.css",
+    "static/js/main.c56daf76.js"
   ]
 }
