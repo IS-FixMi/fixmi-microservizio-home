@@ -22,11 +22,11 @@ export default function Riparazione() {
     )
     .then(response => {
       console.log("Request successful", response);
-      // Additional success handling logic
+      window.location.href = "/success";
     })
     .catch(error => {
       console.error("Request failed", error);
-      // Additional error handling logic
+      window.location.href = "/error";
     });
   }
 
@@ -38,11 +38,10 @@ export default function Riparazione() {
         window.location.href = "/auth";
         return;
       }
-      // Additional fetch data logic can go here
     };
 
     fetchData();
-  }, []); // Empty dependency array means this runs once on mount
+  }, []);
 
   return (
     <>

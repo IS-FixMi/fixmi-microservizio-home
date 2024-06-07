@@ -23,12 +23,14 @@ export default function Assistenza() {
     )
     .then(response => {
       console.log("Request successful", response);
+      window.location.href = "/success";
     })
     .catch(error => {
       console.error("Request failed", error);
+      window.location.href = "/error";
     });
   }
-
+  
   useEffect(() => {
     const fetchData = () => {
       const token = Cookies.get('token');

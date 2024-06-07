@@ -21,7 +21,7 @@ export default function HomepageContent() {
           <a href="/auth" className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
             Accedi nel profilo
           </a>
-          <a href="/home/feedback" className="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+          <a href="/feedback" className="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
             Lasciaci un feedback
           </a>
         </div>

@@ -19,9 +19,10 @@ export default function Assistenza() {
     )
     .then(response => {
       console.log("Success", response);
-      window.location.href = "/home/success";
+      window.location.href = "/success";
     })
     .catch(error => {
+      window.location.href = "/error";
       console.error("Request failed", error);
     });
   }

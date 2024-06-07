@@ -1,14 +1,14 @@
 import React from 'react';
 
-function FormRiparazione({onSubmit}){
+function FormAssistenza({onSubmit}){
   return (
     <div className="flex justify-center items-center h-full pt-20 pb-20">
       <div className="w-3/4 lg:w-3/4 xl:w-2/4">
         <div className="max-w-4xl mx-auto rounded overflow-hidden shadow-lg">
           <div className="px-6 py-4">
-            <div className="font-bold text-xl mb-2">Crea una nuova richiesta di riparazione</div>
+            <div className="font-bold text-xl mb-2">Crea una nuova richiesta di assistenza</div>
             <p className="text-gray-700 text-base">
-               Perfavore inserisci le informazioni necessarie per la creazione di una nuova richiesta di riparazione.
+               Perfavore inserisci le informazioni necessarie per la creazione di una nuova richiesta di assistenza.
             </p>
           </div>
           <div className="px-6 pt-4 pb-2">
@@ -21,7 +21,7 @@ function FormRiparazione({onSubmit}){
                   className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   type="text"
                   name="nome"
-                  placeholder="Inserisci il nome della richiesta di riparazione."
+                  placeholder="Inserisci un nome"
                 />
               </div>
               <div className="mb-4">
@@ -32,7 +32,7 @@ function FormRiparazione({onSubmit}){
                   className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   name="descrizione"
                   type="text"
-                  placeholder="Inserisci la descrizione della richiesta"
+                  placeholder="Inserisci una descrizione"
                 />
               </div>
               <div className="mb-4">
@@ -43,7 +43,7 @@ function FormRiparazione({onSubmit}){
                   className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   name="emailRichiedente"
                   type="email"
-                  placeholder="Inserisci l'email del titolare della richiesta"
+                  placeholder="Inserisci la tua email"
                 />
               </div>
               <div className="mb-4 justify-around flex">
@@ -73,5 +73,4 @@ function FormRiparazione({onSubmit}){
   );
 }
 
-export default FormRiparazione;
-
+export default FormAssistenza;

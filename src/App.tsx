@@ -10,6 +10,7 @@ import React from 'react'
 import Home from './components/home'
 import Riparazione from './components/Riparazione/riparazione.tsx';
 import Success from './components/success.tsx';
+import Error from './components/error.tsx';
 import Assistenza from './components/Assistenza/assistenza.tsx';
 import Feedback from './components/Feedback/feedback.tsx';
 
@@ -21,11 +22,11 @@ function App() {
           <Routes>
             {/* Routing */}
             <Route path="/" element={<Home />}/>
-            <Route path="/home" element={<Home />}/>
-            <Route path="/home/riparazione" element={<Riparazione />}/>
-            <Route path="/home/assistenza" element={<Assistenza />}/>
-            <Route path="/home/success" element={<Success />}/>
-            <Route path="/home/feedback" element={<Feedback />}/>
+            <Route path="/riparazione" element={<Riparazione />}/>
+            <Route path="/assistenza" element={<Assistenza />}/>
+            <Route path="/success" element={<Success />}/>
+            <Route path="/error" element={<Error />}/>
+            <Route path="/feedback" element={<Feedback />}/>
             <Route path="*" element={<Home />}/>
           </Routes>
       </main>
